@@ -1,25 +1,22 @@
 /*  your css code here. If applicable */
 #container {
-    margin: 20px;
-    padding: 10px;
-    background-color: #e0e0e0;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    position: relative;
+  margin: 20px;
+  padding: 10px; /* Adjust padding as needed */
+  border: 1px solid #ccc;
 }
 
 #container::before {
-    content: "Special Text Before";
-    display: block;
-    color: #f00;
-    font-size: 20px;
-    margin-bottom: 10px;
+  content: "This is the text before the container";
+  color: #f00;
+  font-size: 20px;
+  display: block;
+  margin-bottom: 10px;
 }
 
 #container::after {
-    content: "Special Text After";
-    display: block;
-    color: #f00;
-    font-size: 20px;
-    margin-top: 10px;
+  content: "This is the text after the container";
+  color: #f00;
+  font-size: 20px;
+  display: block;
+  margin-top: 10px;
 }
